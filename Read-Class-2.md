@@ -8,8 +8,8 @@ The cycle for test is
 -	Refactor the code 
 
 # What does the if __name__ == “__main__”: do?
--	A ""script"" is a Python file that’s intended to be run directly
--	A ""module"" is a file containing Python definitions and statements and it imported to other file 
+-	A "script" is a Python file that’s intended to be run directly
+-	A "module" is a file containing Python definitions and statements and it imported to other file 
 -	If we want not to execute the code other than function or statement; when we import the file, we use the if 
 -	The if helps us not to run the code after it outside of its original file
 # Recursion 
