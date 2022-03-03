@@ -20,4 +20,17 @@ file = open('dog_breeds.txt')
 |'w'| Open for writing, truncating (overwriting) the file first|
 |'rb' or 'wb'|Open in binary mode (read/write using byte data)|
 
+after opening the file we should close it using the close function by insert it in the try stament 
+or we can use a with satement to close the file by default 
 
+# The try and except Block: Handling Exceptions
+we use it with try to raise an error 
+when syntactically correct code runs into an error, Python will throw an exception error. This exception error will crash the program if it is unhandled. The except clause determines how your program responds to exceptions.
+except is used to catch and handle the exception(s) that are encountered in the try clause.
+# The else Clause
+In Python, using the else statement, you can instruct a program to execute a certain block of code only in the absence of exceptions.
+
+# Using finally
+Imagine that you always had to implement some sort of action to clean up after executing your code. Python enables you to do so using the finally clause
+everything in the **finally** clause will be executed. It does not matter if you encounter an exception somewhere in the try or else clauses. 
+finally enables you to execute sections of code that should always run, with or without any previously encountered exceptions.
